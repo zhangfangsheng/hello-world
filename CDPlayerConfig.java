@@ -3,11 +3,12 @@ import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 
 /*
- * @ComponentScan("chp02.autowiring")也可以写成：
+ * @ComponentScan("chp02.autowiring")涔熷彲浠ュ啓鎴愶細
  * @ComponentScan(basePackages="chp02.autowiring");
  * @ComponentScan(basePackages={"chp02.autowiring"});
- * 或者，更进一步用basePackageClasses定义某些类所在的包作为扫描包
+ * 鎴栬�咃紝鏇磋繘涓�姝ョ敤basePackageClasses瀹氫箟鏌愪簺绫绘墍鍦ㄧ殑鍖呬綔涓烘壂鎻忓寘
  * @ComponentScan(basePackageClasses={CDPlayer.class, DVDPlayer.class});
+ * add new comments
  */
 @Configuration
 @ComponentScan("chp02.autowiring")
