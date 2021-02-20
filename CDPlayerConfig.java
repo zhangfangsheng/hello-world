@@ -8,11 +8,7 @@ import org.springframework.context.annotation.Configuration;
  * @ComponentScan(basePackages={"chp02.autowiring"});
  * 或者，更进一步用basePackageClasses定义某些类所在的包作为扫描包
  * @ComponentScan(basePackageClasses={CDPlayer.class, DVDPlayer.class});
-<<<<<<< HEAD
- * add new commentsabcd
-=======
- * add new commentsabce
->>>>>>> origin/trientry
+ * god
  */
 @Configuration
 @ComponentScan("chp02.autowiring")
